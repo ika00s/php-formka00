@@ -1,0 +1,14 @@
+blic static void main (String args[)) ‹
+LocalDate
+today = LocalDate. nov () :
+if (today-getMonthValue () |=12) (
+System.out print ("Registration is not open this month. window will close"); return:
+{
+public regest){ ( initComponents () ;
+Timer flashTimer=new Timer (500, new ActionListener (){ ( boolean visible=true;
+@Override
+public void actionPerformed (ActionEvent e){ ( messageLabel. setVisible(visible);
+visible = visible;}
+})
+flashTimer.start();
+}
